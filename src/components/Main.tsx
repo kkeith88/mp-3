@@ -14,8 +14,6 @@ const StyledMain = styled.main`
     }
 `;
 
-export default function Main({ children }: {
-    readonly children: React.ReactNode;
-}) {
+export default function Main({ children }: { readonly children: React.ReactNode }) {
     return <StyledMain>{children}</StyledMain>;
 }

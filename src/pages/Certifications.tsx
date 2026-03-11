@@ -9,10 +9,7 @@ export default function Certifications() {
     }, []);
     return (
         <>
-            <Header
-                title="Certifications | Keith's Resume"
-                subtitle="A page showing my certifications"
-            />
+            <Header title="Certifications | Keith's Resume" subtitle="A page showing my certifications" />
             <div id="nav-main">
                 <Nav />
                 <Main>
@@ -22,12 +19,10 @@ export default function Certifications() {
                             <h3>Languages</h3>
                             <div className="entry">
                                 <p>
-                                    <strong>Proficient:</strong> Python, Java,
-                                    JavaScript, SQL, C#, HTML, CSS
+                                    <strong>Proficient:</strong> Python, Java, JavaScript, SQL, C#, HTML, CSS
                                 </p>
                                 <p>
-                                    <strong>Familiar:</strong> Go, TypeScript,
-                                    STATA, C, R
+                                    <strong>Familiar:</strong> Go, TypeScript, STATA, C, R
                                 </p>
                             </div>
                             <h3>Tools &amp; Frameworks</h3>
@@ -36,12 +31,10 @@ export default function Certifications() {
                                     <strong>Frontend:</strong> React, Node.js
                                 </p>
                                 <p>
-                                    <strong>Backend &amp; Cloud:</strong> .NET,
-                                    AWS, PostgreSQL
+                                    <strong>Backend &amp; Cloud:</strong> .NET, AWS, PostgreSQL
                                 </p>
                                 <p>
-                                    <strong>DevOps:</strong> Git, GitLab,
-                                    GitHub, CI/CD, Docker
+                                    <strong>DevOps:</strong> Git, GitLab, GitHub, CI/CD, Docker
                                 </p>
                                 <p>
                                     <strong>Methodology:</strong> Agile / Scrum
@@ -50,16 +43,13 @@ export default function Certifications() {
                             <h3>AI/ML &amp; Data Science</h3>
                             <div className="entry">
                                 <p>
-                                    <strong>Modeling:</strong> scikit-learn,
-                                    Classification (LogReg, RF, SVM)
+                                    <strong>Modeling:</strong> scikit-learn, Classification (LogReg, RF, SVM)
                                 </p>
                                 <p>
-                                    <strong>Unsupervised:</strong> Clustering
-                                    (K-Means, DBSCAN)
+                                    <strong>Unsupervised:</strong> Clustering (K-Means, DBSCAN)
                                 </p>
                                 <p>
-                                    <strong>Sampling:</strong> SMOTE (Imbalanced
-                                    Data)
+                                    <strong>Sampling:</strong> SMOTE (Imbalanced Data)
                                 </p>
                             </div>
                         </div>

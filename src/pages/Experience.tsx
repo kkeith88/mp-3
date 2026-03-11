@@ -9,48 +9,40 @@ export default function Experience() {
     }, []);
     return (
         <>
-            <Header
-                title="Experience | Keith's Resume"
-                subtitle="A page showing my experience"
-            />
+            <Header title="Experience | Keith's Resume" subtitle="A page showing my experience" />
             <div id="nav-main">
                 <Nav />
                 <Main>
                     <h1>Experience</h1>
                     <h5 className="short-summary">
-                        I am a Software Engineer at The MITRE Corporation, where
-                        I specialize in building resilient, cross-platform
-                        applications designed for complex environments. With a
-                        background spanning .NET MAUI, Java Spring Boot, and
-                        React, I lead development efforts that bridge the gap
-                        between high-level architectural strategy and rapid,
-                        iterative execution.
+                        I am a Software Engineer at The MITRE Corporation, where I specialize in building 
+                        resilient, cross-platform applications designed for complex environments. 
+                        With a background spanning .NET MAUI, Java Spring Boot, and React, I lead 
+                        development efforts that bridge the gap between high-level architectural 
+                        strategy and rapid, iterative execution. From mentoring interns to presenting 
+                        'local-first' roadmaps to senior leadership, I am driven by the challenge of 
+                        creating reliable software that performs even when the network doesn't.
                     </h5>
                     <div className="entry">
                         <h3>Software Engineer Intermediate</h3>
                         <p>
-                            <strong>The MITRE Corporation</strong> | Bedford, MA
-                            | <em>May 2024 – Present</em>
+                            <strong>The MITRE Corporation</strong> | Bedford, MA | <em>May 2024 – Present</em>
                         </p>
                         <ul>
                             <li>
-                                Led development of a cross-platform mobile
-                                application using .NET MAUI, defining priorities
-                                and mentoring interns.
+                                Led development of a cross-platform mobile application using .NET MAUI, defining
+                                priorities and mentoring interns.
                             </li>
                             <li>
-                                Prototyped a full-stack WPF desktop application
-                                in C# for reliable offline use in Disconnected,
-                                Intermittent, Limited (DIL) environments.
+                                Prototyped a full-stack WPF desktop application in C# for reliable offline use in
+                                Disconnected, Intermittent, Limited (DIL) environments.
                             </li>
                             <li>
-                                Presented local-first architectural best
-                                practices and roadmaps to internal leadership
+                                Presented local-first architectural best practices and roadmaps to internal leadership
                                 and external sponsors.
                             </li>
                             <li>
-                                Delivered rapid iterations with continuous
-                                feedback cycles, balancing performance with
+                                Delivered rapid iterations with continuous feedback cycles, balancing performance with
                                 maintainability.
                             </li>
                         </ul>
@@ -58,22 +50,19 @@ export default function Experience() {
                     <div className="entry">
                         <h3>Software Engineer Associate</h3>
                         <p>
-                            <strong>The MITRE Corporation</strong> | Bedford, MA
-                            | <em>June 2023 – May 2024</em>
+                            <strong>The MITRE Corporation</strong> | Bedford, MA | <em>June 2023 – May 2024</em>
                         </p>
                         <ul>
                             <li>
-                                Built a full-stack web application using Java
-                                Spring Boot, React, PostgreSQL, Docker, and
-                                Keycloak.
+                                Built a full-stack web application using Java Spring Boot, React, PostgreSQL, Docker,
+                                and Keycloak.
                             </li>
                             <li>
-                                Implemented Java mocks and React Testing Library
-                                in a CI/CD pipeline to support TDD practices.
+                                Implemented Java mocks and React Testing Library in a CI/CD pipeline to support TDD
+                                practices.
                             </li>
                             <li>
-                                Co-led and mentored a group of seven interns;
-                                selected to present to company-wide senior
+                                Co-led and mentored a group of seven interns; selected to present to company-wide senior
                                 leadership.
                             </li>
                         </ul>
@@ -81,13 +70,11 @@ export default function Experience() {
                     <div className="entry">
                         <h3>Software Engineer Intern</h3>
                         <p>
-                            <strong>The MITRE Corporation</strong> | Bedford, MA
-                            | <em>May 2022 – Aug 2022</em>
+                            <strong>The MITRE Corporation</strong> | Bedford, MA | <em>May 2022 – Aug 2022</em>
                         </p>
                         <ul>
                             <li>
-                                Configured a forked open-source app as an
-                                internal developer portal prototype to align
+                                Configured a forked open-source app as an internal developer portal prototype to align
                                 with enterprise needs.
                             </li>
                         </ul>
@@ -95,13 +82,12 @@ export default function Experience() {
                     <div className="entry">
                         <h3>Algorithms Teacher's Assistant</h3>
                         <p>
-                            <strong>Boston College</strong> | Chestnut Hill, MA
-                            | <em>Sept 2022 – Dec 2022</em>
+                            <strong>Boston College</strong> | Chestnut Hill, MA | <em>Sept 2022 – Dec 2022</em>
                         </p>
                         <ul>
                             <li>
-                                Supported 50+ upperclassmen through weekly
-                                office hours and individual tutoring sessions.
+                                Supported 50+ upperclassmen through weekly office hours and individual tutoring
+                                sessions.
                             </li>
                         </ul>
                     </div>
