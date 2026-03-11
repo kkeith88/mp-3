@@ -9,7 +9,7 @@ export default function References() {
     }, []);
     return (
         <>
-            <Header title="Keith's References" subtitle="A page showing my references" />
+            <Header title="References | Keith's Resume" subtitle="A page showing my references" />
             <div id="nav-main">
                 <Nav />
                 <Main>
