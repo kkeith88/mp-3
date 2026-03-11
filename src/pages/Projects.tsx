@@ -144,12 +144,7 @@ export default function Projects() {
                             <button onClick={clear}>Clear</button>
                         </div>
                         <h3
-                            style={{
-                                color:
-                                    result === null || result >= 0
-                                        ? "black"
-                                        : "red",
-                            }}
+                            style={{color:result === null || result >= 0? "black": "red"}}
                         >
                             {result !== null ? String(result) : ""}
                         </h3>

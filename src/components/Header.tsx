@@ -11,10 +11,7 @@ const StyledHeader = styled.header`
     }
 `;
 
-export default function Header({
-    title,
-    subtitle,
-}: {
+export default function Header({title, subtitle}: {
     readonly title: string;
     readonly subtitle: string;
 }) {
